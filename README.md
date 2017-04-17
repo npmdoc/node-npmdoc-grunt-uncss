@@ -1,9 +1,11 @@
 # api documentation for  [grunt-uncss (v0.6.1)](https://github.com/addyosmani/grunt-uncss)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-uncss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-uncss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-uncss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-uncss)
 #### A grunt task for generating CSS files containing only those styles used in your project.
 
-[![NPM](https://nodei.co/npm/grunt-uncss.png?downloads=true)](https://www.npmjs.com/package/grunt-uncss)
+[![NPM](https://nodei.co/npm/grunt-uncss.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-uncss)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-uncss/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-uncss_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-uncss/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-uncss/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-uncss/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-uncss/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-uncss/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-uncss/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +20,6 @@
 {
     "author": {
         "name": "Addy Osmani",
-        "email": "addyosmani@gmail.com",
         "url": "https://addyosmani.com"
     },
     "bugs": {
@@ -69,12 +70,10 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "addyosmani",
-            "email": "addyosmani@gmail.com"
+            "name": "addyosmani"
         },
         {
-            "name": "xhmikosr",
-            "email": "xhmikosr@gmail.com"
+            "name": "xhmikosr"
         }
     ],
     "name": "grunt-uncss",
@@ -82,7 +81,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/addyosmani/grunt-uncss.git"
@@ -93,16 +91,6 @@
     "version": "0.6.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-uncss](#apidoc.module.grunt-uncss)
-
-
-
-# <a name="apidoc.module.grunt-uncss"></a>[module grunt-uncss](#apidoc.module.grunt-uncss)
 
 
 
