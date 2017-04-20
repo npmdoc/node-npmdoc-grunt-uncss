@@ -1,4 +1,7 @@
-# api documentation for  [grunt-uncss (v0.6.1)](https://github.com/addyosmani/grunt-uncss)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-uncss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-uncss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-uncss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-uncss)
+# npmdoc-grunt-uncss
+
+#### api documentation for  [grunt-uncss (v0.6.1)](https://github.com/addyosmani/grunt-uncss)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-uncss.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-uncss) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-uncss.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-uncss)
+
 #### A grunt task for generating CSS files containing only those styles used in your project.
 
 [![NPM](https://nodei.co/npm/grunt-uncss.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-uncss)
@@ -18,12 +21,38 @@
 ```json
 
 {
-    "author": {
-        "name": "Addy Osmani",
-        "url": "https://addyosmani.com"
+    "name": "grunt-uncss",
+    "description": "A grunt task for generating CSS files containing only those styles used in your project.",
+    "version": "0.6.1",
+    "homepage": "https://github.com/addyosmani/grunt-uncss",
+    "author": "Addy Osmani <addyosmani@gmail.com> (https://addyosmani.com)",
+    "maintainers": [
+        "Addy Osmani <addyosmani@gmail.com> (https://addyosmani.com)",
+        "XhmikosR <xhmikosr@gmail.com> (https://github.com/XhmikosR)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/addyosmani/grunt-uncss.git"
     },
     "bugs": {
         "url": "https://github.com/addyosmani/grunt-uncss/issues"
+    },
+    "license": "MIT",
+    "keywords": [
+        "gruntplugin",
+        "uncss",
+        "css"
+    ],
+    "files": [
+        "tasks",
+        "CHANGELOG.md",
+        "LICENSE-MIT"
+    ],
+    "engines": {
+        "node": ">=0.12.0"
+    },
+    "scripts": {
+        "test": "grunt test"
     },
     "dependencies": {
         "async": "^2.0.1",
@@ -31,7 +60,6 @@
         "maxmin": "^2.1.0",
         "uncss": "^0.14.0"
     },
-    "description": "A grunt task for generating CSS files containing only those styles used in your project.",
     "devDependencies": {
         "chai": "^3.5.0",
         "grunt": "^1.0.1",
@@ -47,48 +75,9 @@
         "mocha": "^3.0.0",
         "time-grunt": "^1.3.0"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "d93f1b4fc3f59dd69cec60316019963b0d4841ed",
-        "tarball": "https://registry.npmjs.org/grunt-uncss/-/grunt-uncss-0.6.1.tgz"
-    },
-    "engines": {
-        "node": ">=0.12.0"
-    },
-    "files": [
-        "tasks",
-        "CHANGELOG.md",
-        "LICENSE-MIT"
-    ],
-    "gitHead": "02d1cf5228080df0a370a29de8d3f63561fc1fcc",
-    "homepage": "https://github.com/addyosmani/grunt-uncss",
-    "keywords": [
-        "gruntplugin",
-        "uncss",
-        "css"
-    ],
-    "license": "MIT",
-    "maintainers": [
-        {
-            "name": "addyosmani"
-        },
-        {
-            "name": "xhmikosr"
-        }
-    ],
-    "name": "grunt-uncss",
-    "optionalDependencies": {},
     "peerDependencies": {
         "grunt": ">=0.4.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/addyosmani/grunt-uncss.git"
-    },
-    "scripts": {
-        "test": "grunt test"
-    },
-    "version": "0.6.1"
+    }
 }
 ```
 
